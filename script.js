@@ -1,4 +1,4 @@
-let dayNumber = 0;
+const dayNumber = 8;
 
 if(dayNumber === 0){
     console.log('This is sunday')
