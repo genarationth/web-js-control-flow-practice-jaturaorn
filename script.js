@@ -26,7 +26,15 @@ const password = 'pas$word';
 // password.length >= 8 ? console.log('Welcome!!'):
 // console.log('SORRY!! the password is too short');
 
-password.length >= 12 ? console.log('password is very strong so Welcome!!'):
-password.length >= 8 ? console.log('Welcome!!'):
-console.log('SORRY!! the password is too short');
+// password.length >= 12 ? console.log('password is very strong so Welcome!!'):
+// password.length >= 8 ? console.log('Welcome!!'):
+// console.log('SORRY!! the password is too short');
 
+info('Jack');
+function info(name){
+    console.log(`Hello `+ name);
+}
+
+const myinfo = function(name){
+    console.log(`Hello `+ name);
+}
