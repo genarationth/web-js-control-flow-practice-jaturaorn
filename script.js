@@ -30,11 +30,14 @@ const password = 'pas$word';
 // password.length >= 8 ? console.log('Welcome!!'):
 // console.log('SORRY!! the password is too short');
 
+const info = name => console.log(`Hello `+ name);
 info('Jack');
-function info(name){
-    console.log(`Hello `+ name);
-}
 
-const myinfo = function(name){
-    console.log(`Hello `+ name);
+// const myinfo = function(name){
+//     console.log(`Hello `+ name);
+// }
+
+const addNumbers = (a,b) => {
+    return a+b;
 }
+console.log(addNumbers(5,3));
