@@ -20,13 +20,13 @@
 
 const password = 'pas$word';
 
-password = password.length >= 12 ? console.log('password is very strong so Welcome!!'):
-console.log('SORRY!! the password is too short');
+// password.length >= 12 ? console.log('password is very strong so Welcome!!'):
+// console.log('SORRY!! the password is too short');
 
-password = password.length >= 8 ? console.log('Welcome!!'):
-console.log('SORRY!! the password is too short');
+// password.length >= 8 ? console.log('Welcome!!'):
+// console.log('SORRY!! the password is too short');
 
-password = password.length >= 12 ? console.log('password is very strong so Welcome!!'):
-password = password.length >= 8 ? console.log('Welcome!!'):
+password.length >= 12 ? console.log('password is very strong so Welcome!!'):
+password.length >= 8 ? console.log('Welcome!!'):
 console.log('SORRY!! the password is too short');
 
